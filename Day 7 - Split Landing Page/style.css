@@ -5,6 +5,8 @@
   --right-bg-color: rgb(43, 43, 43, 0.8);
   --left-button-hover-color: rgb(87, 84, 236, 1);
   --right-button-hover-color: rgb(28, 122, 28, 1);
+  --hover-width: 75%;
+  --other-width: 25%;
 }
 * {
   box-sizing: border-box;
@@ -87,4 +89,10 @@ h1 {
 .split.right .button:hover {
   background-color: var(--right-button-hover-color);
   border-color: var(--right-button-hover-color);
+}
+.hover-left .left {
+  width: var(--hover-width);
+}
+.hover-left .right {
+  width: var(--other-width);
 }
