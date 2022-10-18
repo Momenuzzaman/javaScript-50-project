@@ -54,6 +54,18 @@ h1 {
   height: 100%;
   overflow: hidden;
 }
+.split.left {
+  left: 0;
+  background: url("ps.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.split.right {
+  right: 0;
+  background: url("xbox.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .split.left .button:hover {
   background-color: var(--left-button-hover-color);
   border-color: var(--left-button-hover-color);
