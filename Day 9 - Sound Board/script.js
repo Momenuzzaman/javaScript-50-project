@@ -5,6 +5,6 @@ sounds.map((sound) => {
     btn.classList.add('btn');
 
     btn.textContent = sound;
-
+    btn.onclick = () => console.log('click');
     document.getElementById('buttons').appendChild(btn);
 });

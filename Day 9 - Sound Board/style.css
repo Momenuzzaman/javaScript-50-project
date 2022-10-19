@@ -5,11 +5,33 @@
 }
 
 body {
+  background-color: rgb(161, 100, 223);
   font-family: "Roboto", sans-serif;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  text-align: center;
   height: 100vh;
   margin: 0;
   overflow: hidden;
+}
+.btn {
+  cursor: pointer;
+  background-color: rebeccapurple;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:active {
+  transform: scale(0.98);
 }
